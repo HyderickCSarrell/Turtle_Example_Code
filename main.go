@@ -20,6 +20,7 @@ const(
 	millieName = "Millie"
 )
 
+// Every Golang program starts with a main function.
 func main(){
 	frankTurtle := turtle.NewTurtle(frankName, "green")
 	millieTurtle := turtle.NewTurtle(millieName, "brown")
