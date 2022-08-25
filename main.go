@@ -7,6 +7,7 @@ package main
 This is a multiline comment.
 */
 
+
 //Imports loads the packages for use.
 import (
 	"fmt"
@@ -15,7 +16,7 @@ import (
 )
 
 //Global constants/vars are declared first.
-const(
+const (
 	frankName = "Frank"
 	millieName = "Millie"
 )
@@ -35,7 +36,7 @@ func main(){
 	fmt.Printf("%s Cordinations X:%d Y:%d Z:%d\n", millieTurtle.Name, millieTurtle.Position.X, millieTurtle.Position.Y, millieTurtle.Position.Z)
 
 	fmt.Println("")
-
+	// Frank is speaking to Millie
 	for i := 0; i < 5; i++ {
 		fmt.Printf("%s says: %s\n", frankTurtle.Name, frankTurtle.Phrase)
 		switch frankTurtle.Phrase {
@@ -59,6 +60,7 @@ func main(){
 
 	fmt.Println("")
 
+	// Millie is speaking to Frank.
 	for i := 0; i < 5; i++ {
 		fmt.Printf("%s says: %s\n", millieTurtle.Name, millieTurtle.Phrase)
 		switch millieTurtle.Phrase {
